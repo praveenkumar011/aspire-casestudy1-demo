@@ -39,5 +39,5 @@ jobs:
       run: docker build -t ${{ secrets.DOCKER_USERNAME }}/aspire-casestudy1-demo:latest aspire-casestudy1-demo
 
     - name: Push Docker Image
-      run: docker push ${{ secrets.DOCKER_USERNAME }}/aspire-casestudy1-demo:late
+      run: docker push ${{ secrets.DOCKER_USERNAME }}/aspire-casestudy1-demo:latest
 
