@@ -22,9 +22,9 @@ jobs:
       uses: sonarsource/sonarqube-scan-action@master
       with:
         projectBaseDir: .
-       # args: >
-        #  -Dsonar.organization=my-org
-         # -Dsonar.projectKey=my-org_aspire-casestudy1-demo
+        args: >
+          -Dsonar.organization=my-org
+          -Dsonar.projectKey=my-org_aspire-casestudy1-demo
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         #sonarqube token sqa_6dc9f3a8fb24435780408e0a98b2779523942fec
