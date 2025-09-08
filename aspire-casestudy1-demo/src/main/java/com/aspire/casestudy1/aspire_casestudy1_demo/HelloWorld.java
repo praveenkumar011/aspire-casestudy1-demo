@@ -15,8 +15,5 @@ public class HelloWorld {
     public String sayHello1() {
         return "Hello1, World!";
     }
-     @GetMapping("/hello2")
-    public String sayHello2() {
-        return "Hello2, World!";
-    }
+    
 }
