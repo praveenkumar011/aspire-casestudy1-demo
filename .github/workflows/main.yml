@@ -27,4 +27,5 @@ jobs:
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         #sonarqube token sqa_6dc9f3a8fb24435780408e0a98b2779523942fec
+        # cloud 9d888d933d4caa8163e00cb122cbdd88550acc23
         SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
