@@ -28,6 +28,9 @@
 	</scm>
 	<properties>
 		<java.version>21</java.version>
+		
+         <sonar.organization>praveenkumar011</sonar.organization>
+
 	</properties>
 	<dependencies>
 		<dependency>
