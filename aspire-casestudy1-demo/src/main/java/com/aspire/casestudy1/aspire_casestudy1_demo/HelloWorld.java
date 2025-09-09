@@ -8,11 +8,17 @@ public class HelloWorld {
 
     @GetMapping("/hello")
     public String sayHello() {
-        return "Hello, World!";
+        return "Hello, World! Aspire-Casestudy-Demo";
     }
 
     @GetMapping("/hello1")
     public String sayHello1() {
+        System.out.println("Testing............");
+        return "Hello1, World!";
+    }
+
+     @GetMapping("/hello2")
+    public String sayHello2() {
         return "Hello1, World!";
     }
     
